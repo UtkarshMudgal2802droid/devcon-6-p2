@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "The Coin Purse",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "build": "tsc",
+    "start": "tsx src/agent.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
