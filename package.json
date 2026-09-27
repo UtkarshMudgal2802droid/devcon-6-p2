@@ -1,0 +1,31 @@
+{
+  "name": "devcon-6-p2",
+  "version": "1.0.0",
+  "description": "The Coin Purse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^2.24.0",
+    "@types/node": "^26.6.3",
+    "@types/sqlite3": "^3.1.11",
+    "@x402/core": "^2.27.0",
+    "@x402/evm": "^2.27.0",
+    "@x402/express": "^2.27.0",
+    "@x402/fetch": "^2.27.0",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "sqlite3": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "viem": "^2.56.9"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6"
+  }
+}
